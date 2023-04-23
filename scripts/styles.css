@@ -1,0 +1,23 @@
+body {
+    background-color: #F8EDE3;
+    text-align: center;
+}
+
+h1 {
+    color: #85586F;
+    padding: 50px;
+    font-family: 'Bree Serif', serif;
+    font-size: 50px;
+
+}
+
+div {
+    padding-left: 20px;
+    font-family: 'Bree Serif', serif;
+    font-size: large;
+    color: #85586F;
+}
+
+.btn {
+background-color: #DFD3C3;
+}
