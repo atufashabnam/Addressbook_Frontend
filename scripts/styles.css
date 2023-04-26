@@ -21,3 +21,14 @@ div {
 .btn {
 background-color: #DFD3C3;
 }
+
+.table {
+padding: 20px;
+margin-top: 50px;
+}
+thead {
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    background-color: #85586F ;
+    color: #DFD3C3;
+}

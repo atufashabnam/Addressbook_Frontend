@@ -3,8 +3,8 @@ function getAddress(){
     .then(response => response.json())
     .then(data => {
     const table = `
-      <table>
-      <thead>
+    <table class="table table-striped table-bordered">
+    <thead class="thead-dark">
         <tr>
           <th>Name</th>
           <th>Address</th>
@@ -20,10 +20,10 @@ function getAddress(){
             <td>${user.address}</td>
             <td>${user.phone}</td>
             <td>
-              <button onclick="updateRecord(${user.id})">Update</button>
+              <button class= "btn btn-lg btn-outline" onclick="updateRecord(${user.id})">Update</button>
             </td>
             <td>
-            <button onclick="deleteRecord(${user.id})">Delete</button>
+            <button class= "btn btn-lg btn-outline" onclick="deleteRecord(${user.id})">Delete</button>
           </td>
           </tr>
         `).join('')}
